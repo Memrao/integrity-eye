@@ -1,11 +1,27 @@
-// const { Button } = require("../button");
+// import { Button } from "../ui/button";
+// import FormControls from "./form-controls";
 
-// function commonForm(){
-//     return(
-//         <form onSubmit={handleSubmit}>
-//             {/* { render form controls here } */}
-//         <Button type="submit" >{buttonText|| 'Submit'}</Button>
-        
-//         </form>
-//     )
+// function CommonForm({
+//   handleSubmit,
+//   buttonText,
+//   formControls = [],
+//   formData,
+//   setFormData,
+//   isButtonDisabled = false,
+// }) {
+//   return (
+//     <form onSubmit={handleSubmit}>
+//       {/* render form controls here */}
+//       <FormControls
+//         formControls={formControls}
+//         formData={formData}
+//         setFormData={setFormData}
+//       />
+//       <Button disabled={isButtonDisabled} type="submit" className="mt-5 w-full">
+//         {buttonText || "Submit"}
+//       </Button>
+//     </form>
+//   );
 // }
+
+// export default CommonForm;
